@@ -5,89 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="/css/style.css">
   <title>Bootstrap Basics</title>
 </head>
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+    <div class="container">
+      <a class="navbar-brand" href="#">IMGS</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 
 <div class="container">
-
   <div class="jumbotron">
-    <h1>This is a jumbotron</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil adipisci inventore corporis ullam ad rerum aspernatur voluptas suscipit excepturi consequuntur!</p>
-    <button class="btn btn-success btn-lg">Hi There!</button>
-  </div> <!-- Jumbotron Div -->
-
-  <h1>Bootstrap Basics</h1>
-  <button class="btn btn-danger btn-sm">Click Me!</button>
-  <button class="btn btn-success btn-sm active">Click Me!</button>
-  <button class="btn btn-success btn-sm disabled">Click Me!</button>
-  <a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
-
-  <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <h1>The Image Gallery</h1>
+    <p>A bunch of beautiful images that I didn't take!</p>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleFormControlFile1">Example file input</label>
-    <input type="file" class="form-control-file" id="exampleFormControlFile1">
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-
-<form class="form-inline">
-  <div class="form-group mb-2">
-    <label for="staticEmail2" class="sr-only">Email</label>
-    <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
-  </div>
-  <div class="form-group mx-sm-3 mb-2">
-    <label for="inputPassword2" class="sr-only">Password</label>
-    <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-  </div>
-  <button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
-</form>
-</div> <!-- Containter Div -->
+</div>
 
 <script src="js/jquery-3.2.1.js" charset="utf-8"></script>
 <script src="js/bootstrap.js" charset="utf-8"></script>
@@ -96,3 +52,83 @@
 </html>
 
 <!-- NOTE: vid 72 -->
+<!-- asdf
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+<div class="container">
+
+<div class="jumbotron">
+  <h1>This is a jumbotron</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil adipisci inventore corporis ullam ad rerum aspernatur voluptas suscipit excepturi consequuntur!</p>
+  <button class="btn btn-success btn-lg">Hi There!</button>
+</div> <!-- Jumbotron Div -->
+<!-- asdf
+<h1>Bootstrap Basics</h1>
+<button class="btn btn-danger btn-sm">Click Me!</button>
+<button class="btn btn-success btn-sm active">Click Me!</button>
+<button class="btn btn-success btn-sm disabled">Click Me!</button>
+<a href="http://www.getbootstrap.com" class="btn btn-info btn-lg">Bootstrap Docs</a>
+
+<form>
+<div class="form-group">
+  <label for="exampleInputEmail1">Email address</label>
+  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+</div>
+<div class="form-group">
+  <label for="exampleInputPassword1">Password</label>
+  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+</div>
+<div class="form-group">
+  <label for="exampleFormControlFile1">Example file input</label>
+  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+</div>
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<form class="form-inline">
+<div class="form-group mb-2">
+  <label for="staticEmail2" class="sr-only">Email</label>
+  <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com">
+</div>
+<div class="form-group mx-sm-3 mb-2">
+  <label for="inputPassword2" class="sr-only">Password</label>
+  <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+</div>
+<button type="submit" class="btn btn-primary mb-2">Confirm identity</button>
+</form>
+</div> <!-- Containter Div -->
