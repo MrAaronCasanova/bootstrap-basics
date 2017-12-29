@@ -1,14 +1,43 @@
-.pink {
-  background: pink;
-  border: 1px solid purple;
+/* --------------------------------------------
+Global
+-------------------------------------------- */
+
+
+/* --------------------------------------------
+Images
+-------------------------------------------- */
+
+/* ------ Fixes image spill ------ */
+.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 11px #6e6e6e;
 }
-.orange {
-  background: orange;
-  border: 1px dashed red;
+
+/* --------------------------------------------
+Navbar
+-------------------------------------------- */
+
+.navbar {
+    margin-bottom: 20px;
 }
-.blue {
-  background: blue;
-  border: 1px solid darkblue;
-  width: 50px;
-  height: 50px;
+/* push main content down due to .fixed-top navbar */
+body {
+  padding-top: 70px;
+}
+
+/* --------------------------------------------
+Misc
+-------------------------------------------- */
+
+.jumbotron {
+  color: #2c3e50;
+  background: #ecf0f1;
+}
+.navbar-dark {
+  background: #2c3e50;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
 }
